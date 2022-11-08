@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Loader css is here  */
+#loader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    z-index: 999;
+}
+
+:root {
+
+    --orange: #ee6c23;
+    --dark-grey: #333333;
+    --light-grey: #636363;
+    --light-grey-2: #f1f1f1;
+    --white: #ffffff;
+    --shadow: 5px 6px 10px -5px rgba(0, 0, 0, 0.68);
+
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--dark-grey);
+}
+
+h1 {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: var(--white);
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: normal !important;
+    color: var(--light-grey);
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+li,
+a,
+button,
+input {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin-left: -10px;
+}
+
+span {
+    color: var(--orange);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* Scrool bar style */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--light-grey);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--orange);
+}
+
+.main-btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: var(--orange);
+    color: var(--white);
+    transition: all 0.4s linear;
+}
+
+.main-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    transition: all 0.4s linear;
+}
+
+.cta-btn-1 {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+    color: var(--dark-grey);
+    transition: all 0.4s linear;
+
+}
+
+.cta-btn-1:hover {
+    background-color: var(--orange);
+    border: 2px solid var(--white);
+    color: var(--white);
+    transition: all 0.4s linear;
+}
+
+.w-100 {
+    font-weight: 100;
+    color: var(--light-grey);
+}
+
+/* -------------------------------- Header style start here  */
+.top-header {
+    background-color: var(--light-grey);
+}
+
+.hearder_wrapper {
+    /* background-color: #000; */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+}
+
+.fixed-top {
+    background-color: var(--orange);
+    box-shadow: var(--shadow);
+}
+
+
+.nav-link {
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--orange);
+}
+
+.active {
+    color: var(--orange);
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.navbar-toggler ion-icon {
+    font-size: 40px;
+    color: var(--white);
+    box-shadow: none;
+
+}
+
+.navbar-brand img {
+    width: 88px;
+}
+
+.main-btn {
+    margin-left: 10px;
+}
+
+/* -------------------------------- Banner section style start here  */
+.banner-bg {
+    background-image: url(/assets/img/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.banner-wraper {
+    position: relative;
+    padding-top: 50px;
+    color: var(--white);
+    /* text-align: center; */
+}
+
+
+.banner-wraper img {
+    width: 525px;
+}
+
+.banner-wraper p {
+    max-width: 800px;
+    /* margin: auto; */
+    margin-bottom: 30px;
+    color: var(--light-grey-2);
+}
+
+/* -------------------------------- USP section style start here  */
+.usp-box img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.usp-box h3 {
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+
+.usp-box {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+/* -------------------------------- Products section style start here  */
+.products-box {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.products-box img {
+    width: 105px;
+    /* height: 100px; */
+}
+
+
+
+
+/* -------------------------------- About section style start here  */
+
+.cart-product-box {
+    border: 2px solid var(--light-grey-2);
+    padding: 30px 10px;
+    padding: 30px;
+    margin: 10px;
+    position: relative;
+}
+
+.cart-product-box .tag {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: var(--orange);
+    padding: 7px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    /* margin: 5px; */
+}
+
+.cart-product-box img {
+    width: 200px;
+    /* height: 200px; */
+}
+
+/* -------------------------------- About section style start here  */
+
+
+.about-bg {
+    background: rgb(244, 255, 253);
+    background: linear-gradient(105deg, rgba(244, 255, 253, 1) 0%, rgba(218, 240, 237, 1) 100%);
+    /* position: relative; */
+    /* background-image: url(/assets/img/modhu.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.about-img {
+    width: 400px;
+}
+
+.about-bg h2 {
+    color: var(--orange);
+}
+
+.about-bg p {
+    color: var(--dark-grey);
+}
+
+
+
+/* counter section style here  */
+.counter-bg {
+    background-color: #f1f1f1;
+}
+
+.counter-box img {
+    margin-top: -50px;
+}
+
+.counter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Story section style here  */
+
+
+.story-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+
+
+/* -------------------------------- Footer section style start here  */
+.logo img {
+    width: 155px;
+}
+
+footer {
+    background-color: var(--dark-grey);
+    color: var(--white);
+}
+
+footer a {
+    color: var(--white);
+    transition: all 0.5s linear;
+}
+
+footer a:hover {
+    color: var(--yellow);
+    /* margin-left: 10px; */
+    transition: all 0.5s linear;
+
+}
+
+footer li {
+    margin-bottom: 15px;
+}
+
+.footer-3 li {
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+.footer-3 li ion-icon {
+    font-size: 25px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
+#mylocation {
+    width: 100%;
+    height: 215px;
+    border: 5px solid var(--white);
+    border-radius: 5px;
+}
+
+.scroll-top {
+
+    bottom: 30px;
+    right: 20px;
+    position: fixed;
+}
+
+.scroll-top ion-icon {
+    font-size: 30px;
+}
+
+.social-link {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+
+.social-link a {
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--yellow);
+    background-color: var(--yellow);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link a i {
+    font-size: 20px;
+    color: var(--white);
+}
+
+.social-link a:hover {
+    /* color: var(--yellow); */
+    background-color: var(--dark-grey);
+    border: 2px solid var(--white);
+}
+
+.map {
+    height: 170px;
+    /* border-radius: 10px; */
+    border: 5px solid var(--light-grey);
+}
+
+
+/* inner-page css is here  */
+.work-content h3 {
+    opacity: 0.5;
+    font-weight: 800;
+}
+
+.work-content,
+.web-heading {
+    position: relative;
+}
+
+.work-arrow-right {
+    position: absolute;
+    /* bottom: 0; */
+    right: 0;
+}
+
+.work-arrow-left {
+    position: absolute;
+    /* bottom: 0; */
+    left: 0;
+}
