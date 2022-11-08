@@ -88,6 +88,8 @@ ul,
 li {
     list-style-type: none;
     margin-left: -10px;
+    margin-bottom: 15px;
+
 }
 
 span {
@@ -160,6 +162,13 @@ textarea:focus {
     color: var(--light-grey);
 }
 
+.hr{
+    color: var(--orange);
+    height: 5px !important;
+    width: 150px;
+    opacity: 100;
+    border-radius: 30px;
+}
 /* -------------------------------- Header style start here  */
 .top-header {
     background-color: var(--light-grey);
@@ -326,6 +335,9 @@ textarea:focus {
 
 
 /* counter section style here  */
+.counter-box-sec{
+    margin-top: 65px;
+}
 .counter-bg {
     background-color: #f1f1f1;
 }
@@ -368,26 +380,20 @@ footer {
     color: var(--white);
 }
 
-footer a {
+footer a ,footer h3 {
     color: var(--white);
-    transition: all 0.5s linear;
+    
 }
 
 footer a:hover {
-    color: var(--yellow);
+    color: var(--orange);
     /* margin-left: 10px; */
     transition: all 0.5s linear;
 
 }
 
-footer li {
-    margin-bottom: 15px;
-}
 
-.footer-3 li {
-    list-style-type: none;
-    margin-left: -30px;
-}
+
 
 .footer-3 li ion-icon {
     font-size: 25px;
@@ -395,12 +401,7 @@ footer li {
     margin-right: 5px;
 }
 
-#mylocation {
-    width: 100%;
-    height: 215px;
-    border: 5px solid var(--white);
-    border-radius: 5px;
-}
+
 
 .scroll-top {
 
@@ -421,56 +422,3 @@ footer li {
 }
 
 
-.social-link a {
-    padding: 20px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    border: 2px solid var(--yellow);
-    background-color: var(--yellow);
-    color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-link a i {
-    font-size: 20px;
-    color: var(--white);
-}
-
-.social-link a:hover {
-    /* color: var(--yellow); */
-    background-color: var(--dark-grey);
-    border: 2px solid var(--white);
-}
-
-.map {
-    height: 170px;
-    /* border-radius: 10px; */
-    border: 5px solid var(--light-grey);
-}
-
-
-/* inner-page css is here  */
-.work-content h3 {
-    opacity: 0.5;
-    font-weight: 800;
-}
-
-.work-content,
-.web-heading {
-    position: relative;
-}
-
-.work-arrow-right {
-    position: absolute;
-    /* bottom: 0; */
-    right: 0;
-}
-
-.work-arrow-left {
-    position: absolute;
-    /* bottom: 0; */
-    left: 0;
-}
