@@ -321,7 +321,7 @@ textarea:focus {
 .about-bg {
     background: rgb(244, 255, 253);
     background: linear-gradient(105deg, rgba(244, 255, 253, 1) 0%, rgba(218, 240, 237, 1) 100%);
-    background-image: url(/assets/img/about-bg.png);
+    background-image: url(../img/about-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
