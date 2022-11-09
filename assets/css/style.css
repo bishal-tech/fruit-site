@@ -272,7 +272,7 @@ textarea:focus {
 }
 
 .products-box img {
-    width: 105px;
+    width: 100%;
     /* height: 100px; */
 }
 
@@ -302,7 +302,7 @@ textarea:focus {
 }
 
 .cart-product-box img {
-    width: 200px;
+    width: 100%;
     /* height: 200px; */
 }
 
@@ -312,10 +312,10 @@ textarea:focus {
 .about-bg {
     background: rgb(244, 255, 253);
     background: linear-gradient(105deg, rgba(244, 255, 253, 1) 0%, rgba(218, 240, 237, 1) 100%);
-    /* position: relative; */
-    /* background-image: url(/assets/img/modhu.png);
+    background-image: url(/assets/img/about-bg.png);
     background-repeat: no-repeat;
-    background-position: center; */
+    background-position: center;
+    background-size: cover;
 }
 
 .about-logo {

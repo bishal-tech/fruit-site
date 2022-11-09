@@ -64,7 +64,7 @@ $(document).ready(function () {
     pauseOnHover: true,
     centerMode: false,
     centerPadding: "0px",
-    slidesToShow: 3,
+    slidesToShow: 4,
     responsive: [
       {
         breakpoint: 1100,
@@ -96,39 +96,21 @@ $(document).ready(function () {
     ],
   });
 
-  $(".review-slider").slick({
+  $(".story-slid").slick({
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2500,
-    arrows: false,
+    arrows: true,
     dots: false,
     speed: 300,
     slidesToScroll: 1,
-    pauseOnHover: true,
+    pauseOnHover: false,
     centerMode: false,
     centerPadding: "0px",
-    slidesToShow: 2,
-    prevArrow: $(".prev"),
-    nextArrow: $(".next"),
+    slidesToShow: 0,
+    prevArrow: $(""),
+    nextArrow: $(""),
     responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          arrows: false,
-          centerMode: false,
-          centerPadding: "0px",
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 908,
-        settings: {
-          arrows: false,
-          centerMode: false,
-          centerPadding: "0px",
-          slidesToShow: 2,
-        },
-      },
       {
         breakpoint: 650,
         settings: {

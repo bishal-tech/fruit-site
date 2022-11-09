@@ -1,5 +1,7 @@
 @media (max-width: 575.98px) {
-    
+    .first-story , .last-story{
+        display: none;
+    }
 }
 
 
@@ -26,14 +28,20 @@
     input {
         font-size: 15px;
     }
-    .navbar-nav{
+
+    .navbar-nav {
         text-align: center;
     }
 
 }
 
 
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+    .cart-product-box .cta-btn-1 {
+        font-size: 10px !important;
+        padding: 10px 15px;
+    }
+}
 
 
 @media (max-width: 1399.98px) {}
