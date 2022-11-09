@@ -1,6 +1,12 @@
 @media (max-width: 575.98px) {
+    .top-header img{
+        width: 200px;
+    }
     .first-story , .last-story{
         display: none;
+    }
+    .footer-logo img{
+        width: 150px;
     }
 }
 
@@ -37,10 +43,7 @@
 
 
 @media (max-width: 1199.98px) {
-    .cart-product-box .cta-btn-1 {
-        font-size: 10px !important;
-        padding: 10px 15px;
-    }
+    
 }
 
 

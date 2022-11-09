@@ -53,7 +53,7 @@ $(document).ready(function () {
     ],
   });
 
-  $(".cart-product-box-slider").slick({
+  $(".cart-product-box-slider, .cart-product-box-slider-2").slick({
     infinite: true,
     autoplay: true,
     autoplaySpeed: 2500,
@@ -91,6 +91,15 @@ $(document).ready(function () {
           centerMode: false,
           centerPadding: "0px",
           slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          arrows: false,
+          centerMode: false,
+          centerPadding: "0px",
+          slidesToShow: 1,
         },
       },
     ],
